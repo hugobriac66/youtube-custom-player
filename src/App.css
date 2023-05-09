@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1E1E1E inset;
+  -webkit-text-fill-color: white;
+  caret-color: white;
+}
+
+input, textarea {
+  background-color: black;
+  color: white;
+}
